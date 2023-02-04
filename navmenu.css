@@ -109,7 +109,6 @@
 
 #skills {
     padding: 10%;
-   
     background-color: darkgray;
     height: 100vh;
 }
@@ -147,9 +146,80 @@
 .skills-card-img{
     width: 90%;
 }
+
+
+
+
 #projects {
+    padding: 10%;
     height: 100vh;
-    background-color: green;
+    background-color: teal;
+}
+#project-title{
+    text-align: center;
+    text-decoration-style: solid;
+    font-size: 60px;
+    color:black;
+    margin-bottom: 50px
+}
+
+#project-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 100px;
+    row-gap: 40px;
+    transition: transform .06s;
+   
+}
+.project-card{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    transition: transform .06s;
+   
+}
+.project-title{
+    margin: 10px auto;
+}
+.project-card img{
+    width: 100%;
+    border-radius: 25px;
+}
+.project-tech-stack{
+    color: white;
+}
+.tech{
+    font-size: 25px;
+    border: 1px solid red;
+    padding: 5px;
+    background-color: brown;
+    border-radius: 25px;
+}
+.project-description{
+    color: white;
+    padding: 20px auto;
+    margin-top: 15px;
+}
+.project-github-link{
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color:blueviolet;
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    
+    
+}
+.project-deployed-link{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 25px;
+    
 }
 
 #contact {

@@ -313,7 +313,9 @@
         proxy(bire210) {
             return fetch(`https://your-proxy.com/github?user=${bire210}`)
         }
-    }).then(r => r.text())
+    }).then(r => r.text()).catch(err=>{
+        return err;
+    })
 
 
 </script>

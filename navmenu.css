@@ -221,7 +221,25 @@
     border-radius: 25px;
     
 }
-
+#github-state{
+    padding: 10%;
+    background-color:  darkgray;
+}
+#github-title{
+    text-align: center;
+    text-decoration-style: solid;
+    font-size: 60px;
+    color:rgb(93, 4, 4);
+    margin-bottom: 50px
+}
+#git-top{
+    display: flex;
+    justify-content: space-between;
+}
+#git-top div{
+    width: 45%;
+    margin-bottom: 30px;
+}
 #contact {
    
     background-color: white;

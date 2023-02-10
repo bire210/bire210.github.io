@@ -335,3 +335,115 @@
     font-size: 20px;
     margin-top:15px;
 }
+
+/* for medium screen */
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    #nav-menu-left{
+        width: 100%;
+    }
+    #nav-menu-right {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: aqua;
+        padding-right: 1.7%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    
+    #skill-cont {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 100px;
+        row-gap: 40px;
+        transition: transform .06s;
+    }
+    #project-cont{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 100px;
+        row-gap: 40px;
+        transition: transform .06s;
+       
+    }
+  
+    #contact-content{
+        display: flex;
+        flex-direction: column;
+    }
+    #contact-detail{
+        width: 90%;
+    
+    }
+    #contact-by-message{
+        width: 90%;
+    }
+    .calendar{
+        width: auto;
+        display: none;
+    }
+  }
+
+
+  
+
+
+  	/* small screens */
+      @media all and (min-width: 320px) and (max-width: 767px) {
+        #nav-menu{
+            display: flex;
+            flex-direction: column;
+        }
+        #nav-menu-left{
+            width: 100%;
+        }
+         #nav-menu-right {
+             width: 100%;
+             display: flex;
+             justify-content: space-evenly;
+             background-color: aqua;
+             padding-right: 1.7%;
+             padding-top: 2%;
+             padding-bottom: 2%;
+         }
+         #skill-cont {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 100px;
+            row-gap: 40px;
+            transition: transform .06s;
+        }
+        #project-cont{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            column-gap: 100px;
+            row-gap: 40px;
+            transition: transform .06s;
+           
+        }
+        #contact-content{
+            display: flex;
+            flex-direction: column;
+        }
+        #contact-content{
+            display: flex;
+            flex-direction: column;
+        }
+        #contact-detail{
+            width: 100%;
+        
+        }
+        #contact-by-message{
+            width: 100%;
+        }
+        .calendar{
+            width: auto;
+            display: none;
+        }
+        
+      }

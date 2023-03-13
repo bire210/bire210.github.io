@@ -521,13 +521,11 @@
     #contact {
 
         padding: 0%;
-        padding-top: 50%;
+        padding-top: 65%;
 
     }
 
-    #home {
-        padding-left: 20px;
-    }
+  
 
     #skill-cont {
         display: grid;

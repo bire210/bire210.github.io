@@ -43,7 +43,14 @@
     padding-right: 8%;
     background-color: teal;
     height: 400px;
+
 }
+#home {
+    font-family: Arial, sans-serif;
+    background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
 
 #hello {
     font-size: 30px;
@@ -431,9 +438,19 @@
     #projects,
     #contact {
 
-        padding: 0%;
+        padding: 5%;
 
         padding-top: 33%;
+    }
+    #hello {
+        font-size: 20px;
+        color: white;
+    }
+    
+    #role-title {
+        margin: 40px auto;
+        font-size: 40px;
+        color: white;
     }
 
     #skill-cont {
@@ -460,7 +477,7 @@
     }
 
     #contact-detail {
-        width: 90%;
+        width: 100%;
 
     }
     #contact-email{
@@ -468,7 +485,7 @@
     }
 
     #contact-by-message {
-        width: 90%;
+        width: 100%;
     }
 
     .calendar {
@@ -498,7 +515,7 @@
 
     #nav-menu-left {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     #nav-menu-right {
@@ -520,12 +537,22 @@
     #projects,
     #contact {
 
-        padding: 0%;
+        padding: 5%;
         padding-top: 65%;
 
     }
 
-  
+    #hello {
+        font-size: 20px;
+        color: white;
+    }
+    
+    #role-title {
+        margin: 40px auto;
+        font-size: 40px;
+        color: white;
+    }
+
 
     #skill-cont {
         display: grid;

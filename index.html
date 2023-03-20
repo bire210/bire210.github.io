@@ -11,10 +11,11 @@
     </script>
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link rel="stylesheet" href="./navmenu.css">
+    <link rel="stylesheet" href="./na.css">
 </head>
 
 <body>
-    <div id="nav-menu">
+    <!-- <div id="nav-menu">
         <div id="nav-menu-left">
             <a href="#">Birendra Mahto</a>
         </div>
@@ -28,7 +29,25 @@
                     href="./images/Birendra_Mahto_Resume.pdf" download="Birendra-Mahto">Resume</a></div>
         </div>
 
-    </div>
+    </div> -->
+
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div id="nav-menu"  class="logo"><strong>Birendra Mahto</strong></div>
+        <ul class="links">
+            <li class="nav-link home"><a href="#home">Home</a></li>
+            <li class="nav-link about"><a href="#about">About</a></li>
+            <li class="nav-link skills"><a href="#skills">Skills</a></li>
+            <li class="nav-link projects"><a href="#projects">Projects</a></li>
+            <li class="nav-link contact"><a href="#contact">Contact</a></li>
+            <li class="nav-link resume" id="resume-button-1"> <a id="resume-link-1" href="./images/Birendra_Mahto_Resume.pdf" download="Birendra-Mahto">Resume</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
 
     <div id="home">
         <p id="hello">Hello, I'am Birendra Mahto</p>

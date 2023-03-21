@@ -398,8 +398,7 @@ color: blanchedalmond;
 @media all and (min-width: 768px) and (max-width: 1024px) {
   
 
- 
-
+   
     #skills,
     #about,
     #home,
@@ -410,25 +409,37 @@ color: blanchedalmond;
 
         padding-top: 20%;
     }
+
+    #home{
+        padding-top: 30%;
+    }
+
     #hello {
         font-size: 20px;
-        color: white;
+      
     }
     
     #role-title {
         margin: 40px auto;
         font-size: 40px;
-        color: white;
+        
     }
 
     #skill-cont {
 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 70px;
-        row-gap: 40px;
+        column-gap: 30px;
+        row-gap: 20px;
         transition: transform .06s;
     }
+    .skills-card {
+        padding: 5px;
+    }
+    .skills-card-img {
+        width: 70%;
+    }
+    
 
     #project-cont {
         display: grid;
@@ -487,27 +498,36 @@ color: blanchedalmond;
         padding-top: 25%;
 
     }
+    #home{
+        padding-top: 30%;
+    }
 
     #hello {
         font-size: 20px;
-        color: white;
+       
     }
     
     #role-title {
         margin: 40px auto;
         font-size: 40px;
-        color: white;
+        
     }
 
 
     #skill-cont {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 40px;
-        row-gap: 40px;
+        column-gap: 20px;
+        row-gap: 20px;
         transition: transform .06s;
     }
-
+    .skills-card {
+        padding: 5px;
+    }
+    .skills-card-img {
+        width: 70%;
+    }
+    
     #project-cont {
         display: grid;
         grid-template-columns: repeat(1, 1fr);

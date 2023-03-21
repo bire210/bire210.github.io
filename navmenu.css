@@ -8,7 +8,7 @@
 
 
 #home {
-    padding-top: 25%;
+    padding-top: 20%;
     padding-left: 8%;
     padding-right: 8%;
     background-color: teal;
@@ -19,7 +19,7 @@
     font-family: Arial, sans-serif;
     background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
     background-size: cover;
-    height: 100vh;
+    
   }
 
 #hello {
@@ -37,14 +37,16 @@
     text-decoration: none;
     font-size: 40px;
     padding: 20px 40px;
-    color: brown;
-
+    
+color: blanchedalmond;
 
 }
 
 #resume-button-2 {
     border-radius: 100px;
     border: none;
+    color: blanchedalmond;
+    background-image: linear-gradient(hwb(0 80% 13%),rgb(76, 39, 223)); 
 }
 
 #about {
@@ -57,9 +59,10 @@
 
 #about-title {
     text-align: center;
-    text-decoration-style: solid;
+   
     font-size: 50px;
-    
+     color: aliceblue;
+     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
     margin-bottom: 50px;
 }
 
@@ -78,10 +81,14 @@
 }
 
 #about-content {
-    width: 60%;
+    width: 40%;
     padding: 6%;
     font-size: 20px;
-    margin: 4% auto;
+    margin: 2% auto;
+    color: aliceblue;
+    height: 80%;
+    background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
+    border-radius: 25px;
 }
 
 #about-cont {
@@ -107,9 +114,9 @@
 
 #skill-title {
     text-align: center;
-    text-decoration-style: solid;
+    color: aliceblue;
+     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
     font-size: 50px;
-    color: black;
     margin-bottom: 50px
 }
 
@@ -153,9 +160,10 @@
 
 #project-title {
     text-align: center;
-    text-decoration-style: solid;
+    color: aliceblue;
+     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
     font-size: 50px;
-    color: black;
+   
     margin-bottom: 50px
 }
 
@@ -175,6 +183,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 25px;
     transition: transform .06s;
+    background-image: linear-gradient(hwb(223 3% 3%),rgb(146, 223, 39));
 
 }
 
@@ -217,6 +226,9 @@
 
 
 }
+.project-github-link:hover{
+    cursor: pointer;
+}
 
 .project-deployed-link {
     text-decoration: none;
@@ -225,6 +237,9 @@
     padding: 10px;
     border-radius: 25px;
 
+}
+.project-deployed-link:hover{
+    cursor: pointer;
 }
 
 #github-state {
@@ -236,9 +251,10 @@
 
 #github-title {
     text-align: center;
-    text-decoration-style: solid;
+   
     font-size: 50px;
-    color: rgb(93, 4, 4);
+     color: aliceblue;
+     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
     margin-bottom: 50px
 }
 
@@ -270,9 +286,10 @@
 
 #contact-title {
     text-align: center;
-    text-decoration-style: solid;
+     color: aliceblue;
+     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
     font-size: 50px;
-    color: black;
+   
     margin-bottom: 50px
 }
 

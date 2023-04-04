@@ -423,7 +423,9 @@ color: blanchedalmond;
         flex-direction: column;
     }
     #image{
-        width: 90%;
+        width: 60%;
+        margin: auto;
+        text-align: center;
     }
     #about-content{
         width: 90%;
@@ -517,7 +519,9 @@ color: blanchedalmond;
         flex-direction: column;
     }
     #image{
-        width: 90%;
+        width: 50%;
+        margin: auto;
+        text-align: center;
     }
     #about-content{
         width: 90%;

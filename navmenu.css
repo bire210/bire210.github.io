@@ -62,7 +62,7 @@ color: blanchedalmond;
    
     font-size: 50px;
      color: aliceblue;
-     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
+     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
     margin-bottom: 50px;
 }
 
@@ -71,7 +71,7 @@ color: blanchedalmond;
 }
 
 #image {
-    width: 40%;
+    width: 38%;
 }
 
 #image img {
@@ -81,13 +81,13 @@ color: blanchedalmond;
 }
 
 #about-content {
-    width: 40%;
+    width: 45%;
     padding: 6%;
-    font-size: 20px;
+    font-size: 23px;
     margin: 2% auto;
     color: aliceblue;
     height: 80%;
-    background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
+    background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
     border-radius: 25px;
 }
 
@@ -115,7 +115,7 @@ color: blanchedalmond;
 #skill-title {
     text-align: center;
     color: aliceblue;
-     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
+    background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
     font-size: 50px;
     margin-bottom: 50px
 }
@@ -161,7 +161,7 @@ color: blanchedalmond;
 #project-title {
     text-align: center;
     color: aliceblue;
-     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
+    background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
     font-size: 50px;
    
     margin-bottom: 50px
@@ -183,7 +183,7 @@ color: blanchedalmond;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 25px;
     transition: transform .06s;
-    background-image: linear-gradient(hwb(223 3% 3%),rgb(146, 223, 39));
+    background-image: linear-gradient(hwb(54 78% 15%),rgb(215, 216, 246));
 
 }
 
@@ -197,7 +197,7 @@ color: blanchedalmond;
 }
 
 .project-tech-stack {
-    color: white;
+    font-size: 20px;
 }
 
 .tech {
@@ -209,18 +209,19 @@ color: blanchedalmond;
 }
 
 .project-description {
-    color: white;
+    /* color: white; */
     padding: 20px auto;
     margin-top: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .project-github-link {
     margin-right: 40px;
     text-decoration: none;
     font-size: 20px;
-    background-color: blueviolet;
-    padding: 10px;
+    background-color: rgb(104, 33, 170);
+    padding:10px 30px;
     border-radius: 25px;
     color: black;
 
@@ -234,7 +235,7 @@ color: blanchedalmond;
     text-decoration: none;
     font-size: 20px;
     background-color: azure;
-    padding: 10px;
+    padding:10px 30px;
     border-radius: 25px;
 
 }
@@ -254,7 +255,7 @@ color: blanchedalmond;
    
     font-size: 50px;
      color: aliceblue;
-     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
+     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
     margin-bottom: 50px
 }
 
@@ -287,7 +288,7 @@ color: blanchedalmond;
 #contact-title {
     text-align: center;
      color: aliceblue;
-     background-image: linear-gradient(hwb(54 3% 3%),rgb(39, 48, 223));
+     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
     font-size: 50px;
    
     margin-bottom: 50px

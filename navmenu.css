@@ -418,6 +418,11 @@ color: blanchedalmond;
         font-size: 20px;
       
     }
+    #about-cont {
+        display: flex;
+        flex-direction: column;
+    }
+    
     
     #role-title {
         margin: 40px auto;
@@ -502,6 +507,11 @@ color: blanchedalmond;
         padding-top: 30%;
     }
 
+    #about-cont {
+        display: flex;
+        flex-direction: column;
+    }
+    
     #hello {
         font-size: 20px;
        

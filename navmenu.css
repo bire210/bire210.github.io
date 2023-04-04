@@ -422,7 +422,12 @@ color: blanchedalmond;
         display: flex;
         flex-direction: column;
     }
-    
+    #image{
+        width: 90%;
+    }
+    #about-content{
+        width: 90%;
+    }
     
     #role-title {
         margin: 40px auto;
@@ -511,7 +516,12 @@ color: blanchedalmond;
         display: flex;
         flex-direction: column;
     }
-    
+    #image{
+        width: 90%;
+    }
+    #about-content{
+        width: 90%;
+    }
     #hello {
         font-size: 20px;
        

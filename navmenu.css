@@ -202,9 +202,9 @@ color: blanchedalmond;
 
 .tech {
     font-size: 20px;
-    border: 1px solid red;
+    
     padding: 5px;
-    background-color: brown;
+    /* background-color: brown; */
     border-radius: 25px;
 }
 

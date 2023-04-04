@@ -65,10 +65,10 @@ color: blanchedalmond;
      background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
     margin-bottom: 50px;
 }
-
+/* 
 #user-detail-intro {
     font-style: oblique;
-}
+} */
 
 #image {
     width: 38%;

@@ -11,13 +11,13 @@
     padding-top: 20%;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: teal;
+    /* background-color: teal; */
     height: 400px;
 
 }
 #home {
     font-family: Arial, sans-serif;
-    background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+    /* background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat; */
     background-size: cover;
     
   }
@@ -30,7 +30,7 @@
 #role-title {
     margin: 40px auto;
     font-size: 70px;
-    color: white;
+    /* color: white; */
 }
 
 #resume-link-2 {
@@ -53,16 +53,16 @@ color: blanchedalmond;
     padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: teal;
+    /* background-color: teal; */
 
 }
 
 #about-title {
-    text-align: center;
-   
-    font-size: 50px;
-     color: aliceblue;
-     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
+    text-align: left;
+    /* color: aliceblue; */
+    font-size: 40px;
+     
+     /* background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223)); */
     margin-bottom: 50px;
 }
 /* 
@@ -108,15 +108,15 @@ color: blanchedalmond;
     padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: teal;
+    /* background-color: teal; */
 
 }
 
 #skill-title {
-    text-align: center;
-    color: aliceblue;
-    background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
-    font-size: 50px;
+    text-align: left;
+    /* color: aliceblue;
+    background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223)); */
+    font-size: 40px;
     margin-bottom: 50px
 }
 
@@ -136,7 +136,7 @@ color: blanchedalmond;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 25px;
     transition: transform .06s;
-    background-color: bisque;
+    background-color: rgb(238, 236, 244);
 }
 
 #skill-cont :hover {
@@ -155,14 +155,14 @@ color: blanchedalmond;
     padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: teal;
+    /* background-color: teal; */
 }
 
 #project-title {
-    text-align: center;
-    color: aliceblue;
-    background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
-    font-size: 50px;
+    text-align: left;
+    /* color: aliceblue;
+    background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223)); */
+    font-size: 40px;
    
     margin-bottom: 50px
 }
@@ -247,15 +247,15 @@ color: blanchedalmond;
     padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
-    background-color: teal;
+    /* background-color: teal; */
 }
 
 #github-title {
-    text-align: center;
+    text-align: left;
    
-    font-size: 50px;
-     color: aliceblue;
-     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
+    font-size: 40px;
+     /* color: aliceblue;
+     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223)); */
     margin-bottom: 50px
 }
 
@@ -279,17 +279,17 @@ color: blanchedalmond;
 
 #contact {
 
-    background-color: teal;
+    /* background-color: teal; */
     padding-top: 8%;
     padding-left: 8%;
     padding-right: 8%;
 }
 
 #contact-title {
-    text-align: center;
-     color: aliceblue;
-     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223));
-    font-size: 50px;
+    text-align: left;
+     /* color: aliceblue;
+     background-image: linear-gradient(hwb(54 78% 15%),rgb(39, 48, 223)); */
+    font-size: 40px;
    
     margin-bottom: 50px
 }
@@ -317,7 +317,7 @@ color: blanchedalmond;
 }
 
 #contact-linkedin,
-#contact-github {
+#contact-github,#contact-phone,#contact-email {
     text-decoration: none;
     font-size: 25px;
 }

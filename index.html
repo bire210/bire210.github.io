@@ -1,389 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./images/birendra.jpg" />
-    <title>Birendra Mahto | Portfolio</title>
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-    />
-    <link rel="stylesheet" href="./navmenu.css" />
-    <link rel="stylesheet" href="./na.css" />
-  </head>
 
-  <body>
-    <nav id="nav-menu">
-      <input id="nav-toggle" type="checkbox" />
-      <div class="logo"><strong>Birendra Mahto</strong></div>
-      <ul class="links">
-        <li class="nav-link home"><a href="#home">Home</a></li>
-        <li class="nav-link about"><a href="#about">About</a></li>
-        <li class="nav-link skills"><a href="#skills">Skills</a></li>
-        <li class="nav-link projects"><a href="#projects">Projects</a></li>
-        <li class="nav-link contact"><a href="#contact">Contact</a></li>
-        <li class="nav-link resume" id="resume-button-1">
-          <a
-            id="resume-link-1"
-            class="resume"
-            href="./images/Birendra_Mahto_Resume.pdf"
-            download="Birendra-Mahto-Resume"
-            >Resume</a
-          >
-        </li>
-      </ul>
-      <label for="nav-toggle" class="icon-burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
-      </label>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birendra | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="media.style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <div id="home">
-      <p id="hello">Hello, I'am Birendra Mahto</p>
-      <h1 id="role-title">Full Stack Developer</h1>
-      <button id="resume-button-2">
-        <a
-          id="resume-link-2"
-          class="resume"
-          href="./images/Birendra_Mahto_Resume.pdf"
-          download="Birendra-Mahto-Resume"
-        >
-          Resume</a
-        >
-      </button>
+  <!-- githupb --> 
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <!-- icons -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <!-- githupb link -->
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <!-- githublink.. -->
+  <!-- font awesome -->
+  <!--  -->
+  <link rel="shortcut icon" href="imgage/birendra.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Condensed&family=Roboto:wght@100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="headers">
+    <div class="container">
+      <nav id="nav-menu">
+        
+        <h1 onclick="homePage()" style="color: white;"><span style="color:gold">B</span>irendra</h1>
+        <ul id="sidemenu">
+          <li><a onclick="closemenu()" class="nav-link home" href="#home">HOME</a></li>
+          <li><a onclick="closemenu()" class="nav-link about" href="#about">ABOUT</a></li>
+          <li><a onclick="closemenu()" class="nav-link skills" href="#skills">SKILLS</a></li>
+          <li><a onclick="closemenu()" class="nav-link project" href="#project">PROJECTS</a></li>
+          <li><a onclick="closemenu()" class="nav-link contact" href="#contact">CONTACT</a></li>
+          <li class="nav-link resume" id="resume-button-1">
+            <a
+              id="resume-link-1"
+              class="resume"
+              href="Birendra_Mahto_Resume.pdf"
+              download="Birendra_Mahto_Resume"
+              target="_blank"
+              >RESUME</a
+            >
+          </li>
+
+          <i class="uil uil-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="uil uil-bars" onclick="openmenu()"></i>
+      </nav>
     </div>
+  </div>
+  <!-- ---------------------------------------------Home Page--------------------------------------->
+  <section id="home">
 
-    <div id="about" class="about section">
-      <div>
-        <h1 id="about-title">About</h1>
-      </div>
-      <div id="about-cont">
-        <div id="image">
-          <img class="home-img" src="./images/Birendraabout.JPG" alt="" />
-        </div>
-        <div id="about-content">
-          <h1 id="user-detail-name">I am Birendra Mahto</h1>
-          <br />
-          <p id="user-detail-intro">
-            An ambitious Backend Developer with good knowledge of HTML, CSS,
-            JavaScript, NodeJS,Express and MongoDB. Having problem-solving
-            mindset and the ability to perform well in collaboration and
-            individually, look forward to working as an accountable and
-            competent employee in an exciting Tech company.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div id="skills">
-      <div>
-        <h1 id="skill-title">My skills</h1>
-      </div>
-      <div id="skill-cont">
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/html.png" alt="" />
-          <h1 class="skills-card-name">HTML</h1>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/css.png" alt="" />
-          <h1 class="skills-card-name">CSS</h1>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/javascript.png" alt="" />
-          <h1 class="skills-card-name">JavaScript</h1>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/mongodb.png" alt="" />
-          <h1 class="skills-card-name">MongoDb</h1>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/express.png" alt="" />
-          <h1 class="skills-card-name">express</h1>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/node.png" alt="" />
-          <h1 class="skills-card-name">Node</h1>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/postman.png" alt="" />
-          <h1 class="skills-card-name">Postman</h1>
-        </div>
-        <div class="skills-card">
-          <img class="skills-card-img" src="./images/mySql.png" alt="" />
-          <h1 class="skills-card-name">MySql</h1>
-        </div>
+    <div id="intro_section" style="margin-top: 80px;">
+      <p style="color:silver">Hi Everyone </p>
+      
+      - <p id="user-detail-intro">
+      <h1 class="name">
+        I'm <span id="span_name" id="user-detail-name">Birendra Mahto</span>
+        <span>
+          <br>
+          Full
+          Stack Web Developer.
+        </span>
+      </h1>
+      </p>
+      <div id="resume_btn1">
+        <button  id="resume-button-2"><a id="resume-link-2" href="Birendra_Mahto_Resume.pdf"
+          target="_blank"   download="Birendra_Mahto_Resume">Resume</a></button>
       </div>
     </div>
+    <div class="logotheme" style="margin-top: 80px;">
+      <img id="myimage" src="imgage/Birendraabout.JPG" alt="">
+    </div>
+  </section>
 
-    <div id="projects">
-      <div>
-        <h1 id="project-title">Projects</h1>
+  <!----------------------------------------About Page------------------------------------->
+  <br style="color:white">
+
+  <section id="about" class="about section">
+    <h1 style="margin-bottom: 40px;" id="aboutheading">About Me </h1>
+    <div class="about_container">
+      <div id="about_image">
+        <img id="codersImage" class="home-img" width="60%"
+          src="https://cdn.dribbble.com/users/50785/screenshots/3386694/media/5aa4b3c79eef38dedab010a24662060b.jpg"
+          alt="">
       </div>
-      <div id="project-cont">
-        <div class="project-card">
-          <img src="./images/anthropologie.png" alt="" />
-          <h2 class="project-title">Anthropologie clone</h2>
-          <p class="project-description">
-            American E-comerce website with more than 200 stores across the
-            U.S.,Canada, and the UK that sells clothing ,home
-            furniture,decoration,beauty products and gifts.
-          </p>
-          <br />
-          <span class="project-tech-stack"
-            ><b class="tech">Tech Stack :</b> HTML | CSS | JavaScript
-          </span>
-          <br />
-          <br />
-          <br />
-
-          <button id="project1" class="project-github-link">Github</button>
-          <button id="project1-deploy" class="project-deployed-link">
-            Demo
-          </button>
-          <br />
-          <br />
-        </div>
-        <div class="project-card">
-          <img src="./images/tatacliq.png" alt="" />
-          <h2 class="project-title">Tata CliQ clone</h2>
-          <p class="project-description">
-            Indian E-comerce website that sells clothing ,home
-            furniture,decoration,beauty products and gifts.
-          </p>
-          <br />
-          <span class="project-tech-stack"
-            ><b class="tech">Tech Stack :</b> HTML | CSS | JavaScript| Express |
-            MongoDB | NodeJS
-          </span>
-          <br />
-          <br />
-          <br />
-          <!-- <a class="project-git-link">Github</button>
-                <button class="project-live-link">Live Presentation</button> -->
-          <button id="project2" class="project-github-link">Github</button>
-          <button id="project2-deploy" class="project-deployed-link">
-            Demo
-          </button>
-          <br />
-          <br />
-        </div>
-        <div class="project-card">
-          <img src="./images/Schedular.png" alt="" />
-          <h2 class="project-title">Tutor Booking System</h2>
-          <p class="project-description">
-            REST API for an Tutor Booking system.This API performs all the
-            fundamental CRUD operations of any Tutor Booking platform with user
-            validation.
-          </p>
-          <br />
-          <span class="project-tech-stack"
-            ><b class="tech">Tech Stack :</b> HTML | CSS | JavaScript |MongoDB |
-            Nodejs | Express | Boostrap
-          </span>
-          <br />
-          <br />
-          <br />
-          <!-- <a class="project-git-link">Github</button>
-                <button class="project-live-link">Live Presentation</button> -->
-          <button id="project3" class="project-github-link">Github</button>
-          <button id="project3-deploy" class="project-deployed-link">
-            Demo
-          </button>
-          <br />
-          <br />
-        </div>
-
-        <div class="project-card">
-          <img src="./images/we.png" alt="" />
-          <h2 class="project-title">Slack web App clone</h2>
-          <p class="project-description">
-            slack allows teams to organize their communication and work in
-            a central location, making it easier to stay connected and
-            collaborate effectively.
-          </p>
-          <br />
-          <span class="project-tech-stack"
-            ><b class="tech">Tech Stack :</b> HTML | CSS | JavaScript |Express | NodeJS | MongoDB | Redis | Socket.Io
-          </span>
-          <br />
-          <br />
-          <br />
-          <!-- <a class="project-git-link">Github</button>
-                <button class="project-live-link">Live Presentation</button> -->
-          <button id="project4" class="project-github-link">Github</button>
-          <button id="project4-deploy" class="project-deployed-link">
-            Demo
-          </button>
-          <br />
-          <br />
+      <div class="about_section">
+        
+        <p id="user-detail-intro">
+          An Aspiring full-stack web developer with 1200 hours of
+          practical coding experience, strongly passionate about
+          new technologies. collaborative team player proficient in
+          building efficient software solutions. looking for a
+          challenging role in a growth-oriented organization.</p>
+        <div class="about_ex_projects">
+          <div id="projects">
+            <i class="uil uil-shield"></i>
+            <h5>Experience</h5>
+            <small>6 months</small>
+          </div>
+          <div id="my_experience">
+            <i class="uil uil-file-shield-alt"></i>
+            <h5>50+ Project</h5>
+            <small>Assignments</small>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <div id="github-state">
-      <div>
-        <h1 id="github-title">My Github Statics</h1>
+  <!-- project section is here--------------------- -->
+  <section class="projectsection" id="project">
+    <h1 id="aboutheading">My Projects</h1>
+
+    <!-- 1 -->
+    <div class="project_container">
+
+      <!-- 0 -->
+      <div class="project-card">
+        <h3 class="project-title">Anthropologie clone</h3>
+        <div><img id="project_img" src="imgage/anthropologie.png" alt=""></div>
+        <div id="project_descriptions">
+          <!-- <h5>Features</h5> -->
+          <div id="project_content">
+            <p class="project-description">American E-comerce website with more than 200 stores across the U.S.,Canada, and the UK that sells clothing ,home furniture,decoration,beauty products and gifts.</p>
+            <p class="project-tech-stack"><span> HTML | CSS | Javascript </span></p>
+          </div>
+
+          <div id="deployed_container">
+            <a class="project-github-link" href="https://github.com/bire210/FashionPoint"><i
+                class="fa fa-github fa-3x"></i>
+            </a>
+            <a class="project-deployed-link" href="https://whimsical-chaja-b6e36b.netlify.app/"><button>Live</button></a>
+          </div>
+        </div>
       </div>
-      <div id="git-top">
+      <!--  -->
+      <div class="project-card">
+        <h3 class="project-title">Tata CliQ clone</h3>
+        <div><img id="project_img" src="imgage/tatacliq.png" alt=""></div>
+        <div id="project_descriptions">
+          <!-- <h5>Features</h5> -->
+          <div id="project_content">
+            <p class="project-description">Indian E-comerce website that sells clothing ,home furniture,decoration,beauty products and gifts.
+            </p>
+            <p class="project-tech-stack"> <span>HTML | CSS | Javascript | Node.js | Express.js |
+                MongoDB</span></p>
+          </div>
+
+          <div id="deployed_container">
+            <a class="project-github-link" href="https://github.com/bire210/Myshop"><i
+                class="fa fa-github fa-3x"></i>
+            </a>
+            <a class="project-deployed-link" href="https://magenta-croissant-74cf94.netlify.app/home.html"><button>Live</button></a>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="project-card">
+        <h3 class="project-title">Tutor Booking System </h3>
+        <div><img id="project_img" src="imgage/Schedular.png" alt=""></div>
+        <div id="project_descriptions">
+          <!-- <h5>Features</h5> -->
+          <div id="project_content">
+            <p class="project-description">REST API for an Tutor Booking system.This API performs all the fundamental CRUD operations of any Tutor Booking platform with user validation.</p>
+            <p class="project-tech-stack"><span>HTML | CSS | Javascript | Node.js | Express.js |
+                MongoDB</span></p>
+          </div>
+
+          <div id="deployed_container">
+            <a class="project-github-link" href="https://github.com/krishna8464/Tutoring-Appointment-Booking-System"><i
+                class="fa fa-github fa-3x"></i>
+            </a>
+            <a class="project-deployed-link" href="https://comforting-nougat-70fd30.netlify.app/"><button>Live</button></a>
+          </div>
+        </div>
+      </div>
+      <!-- 3 -->
+      <!-- Homedecor is the clone of bedbathandbeyond.com, a domestic merchandise seller. It is one stop shop for domestic accessories for home decoration. CRUD operations from Admin panel is possible. -->
+      <!-- 4-->
+      <div class="project-card">
+        <h3 class="project-title">Slack web App clone </h3>
+        <div><img id="project_img" src="imgage/we.png" alt=""></div>
+        <div id="project_descriptions">
+          <!-- <h5>Features</h5> -->
+          <div id="project_content">
+            <p class="project-description">Slack allows teams to organize their communication and work in a central location, making it easier to stay connected and collaborate effectively.
+            </p>
+            <p class="project-tech-stack"><span> HTML | CSS | JavaScript |Express | NodeJS | MongoDB | Redis | Socket.Io</span></p>
+          </div>
+
+          <div id="deployed_container">
+            <a class="project-github-link" href="https://github.com/bire210/Slack-clone"><i
+                class="fa fa-github fa-3x"></i>
+            </a>
+            <a class="project-deployed-link"
+              href="https://singular-axolotl-96063b.netlify.app/"><button>Live</button></a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  </section>
+  <!-------------------- SKILLS ---------------------->
+  <section id="skills">
+    <h1 id="skills_i_have">Skills I Have..</h1>
+    <div id="skills_container">
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/javascript.png" alt="nodejs.png" />
+        <h5 class="skills-card-name">Javascript</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/nodejs.png" alt="express.png" />
+        <h5 class="skills-card-name">Node.js</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Status_iucn_EX_icon.svg/480px-Status_iucn_EX_icon.svg.png"
+          alt="mongodb.png" />
+        <h5 class="skills-card-name">Express.js</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/mongodb.png" alt="mongodb.png" />
+        <h5 class="skills-card-name">Mongo DB</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/mysql.png" alt="mongodb.png" />
+        <h5 class="skills-card-name">MySQL</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/redis.svg" alt="mongodb.png" />
+        <h5 class="skills-card-name">Redis</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/amazon-aws.png" alt="mongodb.png" />
+        <h5 class="skills-card-name">AWS</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/html5.png" alt="mongodb.png" />
+        <h5 class="skills-card-name">HTML</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/css3.png" alt="mongodb.png" />
+        <h5 class="skills-card-name">CSS</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/react.svg" alt="mongodb.png" />
+        <h5 class="skills-card-name">React</h5>
+      </div>
+    </div>
+  </section>
+
+  <!-- tools section -->
+
+  <section class="toolsskills" id="skills">
+    <h1 id="skills_i_have">Tools I Use..</h1>
+    <div id="skills_container">
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/git.png" alt="git.png" />
+        <h5 class="skills-card-name">Git</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/github (3).png" alt="express.png" />
+        <h5 class="skills-card-name">GitHub</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://static-00.iconduck.com/assets.00/npm-icon-512x512-qtfdrf37.png"
+          alt="npm.png" />
+        <h5 class="skills-card-name">NPM</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="./imgage/postman.png" alt="postman.png" />
+        <h5 class="skills-card-name">Postman</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img"
+          src="https://cpwebassets.codepen.io/assets/social/facebook-default-05cf522ae1d4c215ae0f09d866d97413a2204b6c9339c6e7a1b96ab1d4a7340f.png"
+          alt="postman.png" />
+        <h5 class="skills-card-name">Codepen</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://cdn.iconscout.com/icon/free/png-256/netlify-3629537-3032320.png"
+          alt="postman.png" />
+        <h5 class="skills-card-name">Netlify</h5>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Prepare a container for your calendar. -->
+  <!-------------------- GitHUB ---------------------->
+  <section class="react-activity-calendar">
+    <h1 id="githtext">GitHub-Activity-Calendar</h1>
+
+    <div id="github_activity_calender">
+      <div id="react-activity-calendar">
+        <div class="calendar"></div>
+      </div>
+
+      <div id="githubstats">
         <div>
-          <p>
-            <img
-              width="100%"
-              height="250px"
-              align="left"
-              id="github-top-langs"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=bire210"
-              alt="bire210"
-            />
-          </p>
+          <img id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=bire210&show_icons=true&theme=merko"
+            alt="top_languages" />
         </div>
         <div>
-          <p>
-            &nbsp;<img
-              width="100%"
-              height="250"
-              align="center"
-              id="github-stats-card"
-              src="https://github-readme-stats.vercel.app/api?username=bire210"
-              alt="bire210"
-            />
-          </p>
+          <img id="github-streak-stats"
+            src="https://github-readme-streak-stats.herokuapp.com?user=bire210&theme=merko" alt="">
+        </div>
+        <div>
+          <img id="github-top-langs"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=bire210&layout=compact&theme=merko&&&hide_progress=true"
+            alt="top_languages" />
         </div>
       </div>
-      <div>
-        <p>
-          <img
-            width="100%"
-            height="250px"
-            align="center"
-            id="github-streak-stats"
-            src="https://github-readme-streak-stats.herokuapp.com?user=bire210"
-            alt="bire210"
-          />
-        </p>
-      </div>
-
-      <div class="react-activity-calendar">
-        <div class="calendar">
-          <!-- Loading stuff -->
-          Loading the data just for you.
-        </div>
-      </div>
+     
     </div>
 
-    <div id="contact">
-      <div>
-        <h1 id="contact-title">Contact Me</h1>
-      </div>
-      <div id="contact-content">
-        <div id="contact-detail">
-          <h2>Get in Touch</h2>
-          <table>
-            <tr>
-              <td class="left">
-                <a href="https://github.com/bire210" target="_blank"
-                  ><img class="social-logo" src="./images/github.png" alt=""
-                /></a>
-              </td>
-              <td class="right">
-                <a
-                  id="contact-github"
-                  href="https://github.com/bire210"
-                  target="_blank"
-                  >Git Hub</a
-                >
-              </td>
-            </tr>
-            <tr>
-              <td class="left">
-                <a
-                  href="https://www.linkedin.com/in/birendra-mahto"
-                  target="_blank"
-                  ><img
-                    class="social-logo"
-                    id="link-logo"
-                    src="./images/linkedin.png"
-                    alt=""
-                /></a>
-              </td>
-              <td class="right">
-                <a
-                  id="contact-linkedin"
-                  href="https://www.linkedin.com/in/birendra-mahto"
-                  target="_blank"
-                  >Linkedin</a
-                >
-              </td>
-            </tr>
-            <tr>
-              <td class="left">
-                <img
-                  class="social-logo"
-                  id="call-logo"
-                  src="./images/call.png"
-                  alt=""
-                />
-              </td>
-              <td class="right">
-                <p id="contact-phone">+91 8235198358</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="left">
-                <img
-                  class="social-logo"
-                  id="email-logo"
-                  src="./images/email.png"
-                  alt=""
-                />
-              </td>
-              <td class="right">
-                <p id="contact-email">birendra.kr217@gmail.com</p>
-              </td>
-            </tr>
-          </table>
+  </section>
+
+  <!--------------------------CONTACTS..------------------------------------  -->
+  <section id="contact">
+    <h1 id="contact_text" style="text-align: center;">Connect with me </h1>
+    <div class="conatainer">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact</h1>
+          <p id="contact-email"><i class="uil uil-envelope-alt"></i>birendra.kr217@gmail.com</p>
+          <p id="contact-phone"><i class="uil uil-mobile-android-alt"></i>8235198358</p>
+          <div class="social-icons">
+            <a id="contact-github" href="https://www.linkedin.com/in/birendra-mahto/"><i
+                class="uil uil-linkedin"></i></a>
+            <a id="contact-linkedin" href="https://github.com/bire210"><i class="uil uil-github"></i></a>
+          </div>
+         
         </div>
-        <div id="contact-by-message">
-          <h2>Message me</h2>
-          <form action="">
-            <input type="text" id="name-box" placeholder="Name" required />
-            <input type="email" id="email-box" placeholder="Email" required />
-            <br />
-            <input
-              type="text"
-              id="subject-box"
-              placeholder="Subject"
-              required
-            />
-            <br />
-            <input
-              type="text"
-              id="message-box"
-              placeholder="Message ....."
-              required
-            />
-            <br />
-            <input id="send-message" type="submit" value=" Send Message" />
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet" action="">
+            <input type="text" name="Name" placeholder="Your Name">
+            <input type="text" name="Email" placeholder="Your Email">
+            <textarea name="Text" id="" cols="30" rows="4"></textarea>
+            <button type="submit" class="bt
+             btn2">Submit</button>
           </form>
+         
         </div>
       </div>
     </div>
-    <div id="copywrite">
-      <p>&#169;2023 All rights reserved.</p>
-    </div>
-  </body>
+
+  </section>
+
+  <!-- footer  -->
+  <footer>
+    <p>&copy; Created By Birendra</p>
+  </footer>
+</body>
+
 </html>
 
+<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+<script src="index.js"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
 <script>
-  let resume1 = document.querySelector("#resume-link-1");
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxZkJXt7f7-KOFBpc-ZiNTWP8P4ADGfO0kv82HlDKRM099MrdBSf8rrVgjS3umS6dU5/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const btn2 = document.querySelector(".btn2")
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        
+        btn2.innerHTML = 'Message sent '
+
+        setTimeout(function () {
+          // msg.innerHTML = ""
+          btn2.innerHTML = 'Submit';
+        }, 2500)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="gitcalendar/gitcalendar.js"></script>
+
+<script>
+   let resume1 = document.querySelector("#resume-link-1");
   resume1.addEventListener("click", () => {
     window.open(
       "https://drive.google.com/file/d/1xSSv6tD6EUGYmk7Z9SHRhGV_Unx5Hcj-/view?usp=sharing"
-    );
+    ,);
   });
 
   let resume2 = document.querySelector("#resume-link-2");
@@ -393,55 +419,5 @@
     );
   });
 
-  // project1
-  document.querySelector("#project1").addEventListener("click", (e) => {
-    window.open("https://github.com/bire210/spiky-plate-7313");
-  });
-
-  document.querySelector("#project1-deploy").addEventListener("click", (e) => {
-    window.open("https://whimsical-chaja-b6e36b.netlify.app/");
-  });
-
-  //project2
-  document.querySelector("#project2").addEventListener("click", (e) => {
-    window.open("https://github.com/bire210/jumpy-sound-9573");
-  });
-
-  document.querySelector("#project2-deploy").addEventListener("click", (e) => {
-    window.open("https://poetic-souffle-508685.netlify.app/");
-  });
-
-  //project3
-  document.querySelector("#project3").addEventListener("click", (e) => {
-    window.open("https://github.com/krishna8464/feigned-business-6229");
-  });
-
-  document.querySelector("#project3-deploy").addEventListener("click", (e) => {
-    window.open("https://comforting-nougat-70fd30.netlify.app/index.html");
-  });
-
-  //project4
-  document.querySelector("#project4").addEventListener("click", (e) => {
-    window.open("https://github.com/bire210/Slack-clone");
-  });
-
-  document.querySelector("#project4-deploy").addEventListener("click", (e) => {
-    window.open("https://singular-axolotl-96063b.netlify.app/");
-  });
-
-  GitHubCalendar(".calendar", `bire210`);
-
-  // or enable responsive functionality:
-  GitHubCalendar(".calendar", "bire210", { responsive: true });
-
-  // Use a proxy
-  GitHubCalendar(".calendar", "bire210", {
-    proxy(bire210) {
-      return fetch(`https://your-proxy.com/github?user=${bire210}`);
-    },
-  })
-    .then((r) => r.text())
-    .catch((err) => {
-      return err;
-    });
+ 
 </script>
